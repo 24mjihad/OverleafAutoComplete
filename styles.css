@@ -1,0 +1,13 @@
+.overleaf-autocomplete-suggestion {
+    color: rgba(128, 128, 128, 0.7); /* Light gray */
+    font-style: italic;
+    pointer-events: none;
+    position: absolute;
+    z-index: 999999;
+    white-space: pre;
+    font-family: inherit; /* Inherit editor's font */
+    font-size: inherit;
+    line-height: inherit;
+    user-select: none;
+    background: transparent;
+}

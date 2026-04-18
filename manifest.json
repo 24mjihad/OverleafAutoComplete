@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Overleaf Math AutoComplete",
+  "version": "1.0",
+  "description": "Autocomplete math computations in Overleaf.",
+  "permissions": [],
+  "content_scripts": [
+    {
+      "matches": ["https://www.overleaf.com/project/*"],
+      "js": ["mathParser.js", "content.js"],
+      "css": ["styles.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}
